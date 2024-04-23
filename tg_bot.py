@@ -12,7 +12,7 @@ from aiogram.utils.formatting import Text, Spoiler, Bold
 
 from dotenv import load_dotenv
 
-# Load .env and get the value of the environment variable
+# Load .env and get the value of "TOKEN"
 load_dotenv()
 TOKEN = os.getenv("TOKEN")
 
